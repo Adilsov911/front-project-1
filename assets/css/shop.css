@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#shop-first {
+  background-color: #292930;
+  padding: 15px;
+}
+#shop-first .all .select {
+  border-color: #292930;
+  border-bottom: none;
+  background-color: #292930;
+  color: #6d6d6d;
+  margin-left: 10px;
+}
+#shop-first .all .second {
+  text-align: end;
+}
+#shop-first .all .second a {
+  margin-left: 15px;
+  color: #6d6d6d;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#shop-header {
+  z-index: 111;
+  position: -webkit-sticky;
+  position: sticky;
+  box-shadow: 1px -1px 7px 0 grey;
+  padding: 20px;
+}
+#shop-header .ahrefler {
+  text-align: center;
+  margin-top: 14px;
+}
+#shop-header .ahrefler a {
+  color: #292930;
+  font-weight: 600;
+  font-size: 15px;
+}
+#shop-header .ahrefler a i {
+  margin-left: 5px;
+  color: #C7C6C6;
+}
+#shop-header .iconlar {
+  width: 15%;
+  text-align: center;
+}
+#shop-header .iconlar i {
+  margin-top: 15px;
+  margin-left: 13px;
+  font-size: 22px;
+}
+#shop-header .dropdown1 {
+  display: -webkit-inline-box;
+}
+#shop-header .dropdown1 {
+  position: relative;
+  display: inline-block;
+  transition: 1s;
+  z-index: 1000;
+}
+#shop-header .conetnt1 {
+  z-index: 111;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  top: 20px;
+  left: -6px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  z-index: 1;
+}
+#shop-header .conetnt1 h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+#shop-header .dropdown1:hover .conetnt1 {
+  display: block;
+}
+#shop-header .dropdown2 {
+  position: relative;
+  display: inline-block;
+  z-index: 1000;
+}
+#shop-header .conetnt2 {
+  display: none;
+  z-index: 111;
+  position: absolute;
+  background-color: #f9f9f9;
+  top: 20px;
+  left: -6px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  z-index: 1;
+}
+#shop-header .conetnt2 h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+#shop-header .dropdown2:hover .conetnt2 {
+  display: block;
+}
+#shop-header .dropdown3 {
+  position: relative;
+  display: inline-block;
+  z-index: 1000;
+}
+#shop-header .conetnt3 {
+  display: none;
+  z-index: 111;
+  position: absolute;
+  background-color: #f9f9f9;
+  top: 20px;
+  left: -6px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  z-index: 1;
+}
+#shop-header .conetnt3 h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+#shop-header .dropdown3:hover .conetnt3 {
+  display: block;
+}
+#shop-header .dropdown4 {
+  position: relative;
+  display: inline-block;
+  z-index: 1000;
+}
+#shop-header .conetnt4 {
+  display: none;
+  z-index: 111;
+  position: absolute;
+  background-color: #f9f9f9;
+  top: 20px;
+  left: -6px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  z-index: 100;
+}
+#shop-header .conetnt4 h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+#shop-header .dropdown4:hover .conetnt4 {
+  display: block;
+  z-index: 10000;
+}
+#shop-header .ahrefler a {
+  margin-left: 25px;
+  position: relative;
+}
+#shop-header .ahrefler a:hover:after {
+  width: 100%;
+}
+#shop-header a:after {
+  content: "";
+  position: absolute;
+  height: 1.5px;
+  width: 0;
+  bottom: -0.1rem;
+  left: 0;
+  transition: 200ms ease-in;
+  background: black;
+}
+#shop-header .search input {
+  width: 100%;
+  outline: none;
+}
+#shop-header .all1 {
+  display: flex;
+  align-items: center;
+}
+#shop-header .icons i {
+  margin-left: 10px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+#shop-header .icons i:hover {
+  background-color: #FF497C;
+  border-radius: 100%;
+  color: #f9f9f9;
+  padding: 6px;
+}
+
+#second-shop {
+  z-index: -1;
+  background-color: #F8F8F8;
+  align-items: center;
+  padding: 50px;
+}
+#second-shop img {
+  width: 70%;
+}
+#second-shop h1 {
+  font-weight: bold;
+}
+#second-shop a {
+  color: #737386;
+  font-weight: bold;
+}
+#second-shop .color {
+  font-weight: bold;
+  color: rgb(113, 113, 253);
+}
+
+#three-shop {
+  padding: 5%;
+  z-index: -1;
+}
+#three-shop .first i {
+  margin-left: 40%;
+}
+#three-shop .first h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+#three-shop .first hr {
+  height: 10px;
+  border-top: 3px solid rgb(25, 0, 255);
+}
+#three-shop .first .catalog2 i {
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#three-shop .catalog1 button {
+  background-color: #F8F8F8;
+  color: black;
+  transition: 0.5s;
+}
+#three-shop .catalog1 button:hover {
+  background-color: blue;
+  color: #F8F8F8;
+}
+#three-shop .catalog1 .checkbox {
+  margin-bottom: 20px;
+}
+#three-shop .catalog1 label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #6d6d6d;
+  font-weight: 14px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 100%;
+}
+#three-shop .head {
+  text-align: end;
+}
+#three-shop .head h4 {
+  display: inline;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#three-shop .head select {
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+#three-shop .cards {
+  margin-top: 30px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+#three-shop .cards .cardd {
+  border-top: 10px;
+  width: 30%;
+  transition: 1s;
+  margin-top: 30px;
+  position: relative;
+  text-align: start;
+}
+#three-shop .cards .cardd .cardd-body {
+  padding: 10px;
+}
+#three-shop .cards .cardd .cardd-body span {
+  font-size: 15px;
+}
+#three-shop .cards .cardd p {
+  margin-top: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#three-shop .cards .cardd img {
+  width: 100%;
+  transition: 0.5s;
+}
+#three-shop .cards .cardd .hover {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 35px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+}
+#three-shop .cards .cardd .hover .btn {
+  background-color: #FF497C;
+  color: #F8F8F8;
+}
+#three-shop .cards .cardd .hover i {
+  background-color: #FF497C;
+  padding: 6px;
+  color: #f9f9f9;
+  border-radius: 5px;
+}
+#three-shop .cards .cardd:hover img {
+  transform: scale(1.1);
+}
+#three-shop .cards .cardd:hover .hover {
+  opacity: 1;
+  visibility: visible;
+  bottom: 90px;
+  left: 35px;
+}
+
+#one {
+  display: none;
+}
+
+#subscribe .img-sub {
+  background-image: url("https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-5.jpg");
+}/*# sourceMappingURL=shop.css.map */

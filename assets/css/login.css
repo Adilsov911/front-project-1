@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#login {
+  overflow: hidden;
+  position: relative;
+}
+#login .sol {
+  width: 100%;
+}
+#login .sol img {
+  width: 100%;
+  position: relative;
+}
+#login .sol h1 {
+  position: absolute;
+  top: 5%;
+  left: 18%;
+}
+#login .sol .asagi {
+  position: absolute;
+  top: 25%;
+  left: 19%;
+}
+#login .sol .asagi h2 {
+  font-size: 32;
+  font-weight: bold;
+}
+#login .head {
+  text-align: end;
+  margin-top: 40px;
+}
+#login .head span {
+  font-weight: bold;
+}
+#login .head .btn {
+  border-radius: 5px;
+  padding: 16px 38px;
+  background-color: #ff497c;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 40px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+#login .head .btn:hover {
+  padding: 19px 44px;
+}
+#login .center {
+  position: absolute;
+  top: 314%;
+  left: 38%;
+}
+#login .center .text .add {
+  align-items: center;
+  display: flex;
+}
+#login .center .text .add span {
+  margin-left: 100px;
+}
+#login .center .text button {
+  border-radius: 5px;
+  border-color: blue;
+  text-align: left;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: blue;
+}
+#login .center .text h6 {
+  margin-bottom: 40px;
+}
+#login .center .text input {
+  padding: 15px 70px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border-color: blue;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+#login .center .text .maill {
+  position: relative;
+  margin-bottom: 20px;
+}
+#login .center .text .number {
+  position: relative;
+}
+#login .center .text p {
+  color: #777777;
+  position: absolute;
+  left: 41px;
+  top: -10px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.centerr {
+  position: absolute;
+  top: 19%;
+  left: 19%;
+}
+.centerr .text .add {
+  align-items: center;
+  display: flex;
+}
+.centerr .text .add span {
+  margin-left: 100px;
+}
+.centerr .text button {
+  border-radius: 5px;
+  border-color: blue;
+  text-align: left;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: blue;
+}
+.centerr .text h6 {
+  margin-bottom: 40px;
+}
+.centerr .text input {
+  padding: 15px 70px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border-color: blue;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+.centerr .text .maill {
+  position: relative;
+  margin-bottom: 20px;
+}
+.centerr .text .number {
+  position: relative;
+}
+.centerr .text p {
+  color: #777777;
+  position: absolute;
+  left: 41px;
+  top: -10px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.centerr {
+  display: none;
+}/*# sourceMappingURL=login.css.map */

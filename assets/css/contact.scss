@@ -1,0 +1,113 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#first3 {
+    margin-top: 40px;
+    .head {
+        h3 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        p {
+            color: #777777;
+        }
+    }
+    .baton {
+        margin-right: 20px;
+    }
+    .btn {
+        padding: 16px 42px;
+        font-weight: bold;
+        color: #fff;
+        background-color: rgb(48, 113, 253);
+        border-radius: 5px;
+        margin-right: 10px;
+        transition: 0.5s;
+    }
+    .btn:hover {
+        padding: 18px 60px;
+    }
+    .second {
+        display: flex;
+        margin-top: 50px;
+        input {
+            position: relative;
+            padding: 15px 40px;
+            margin-right: 15px;
+            border-radius: 5px;
+            border-color: blue;
+            border-width: 1px;
+        }
+        .name {
+            position: relative;
+        }
+        .number {
+            position: relative;
+        }
+        .mail {
+            position: relative;
+
+            
+        }
+        p {
+            color: #777777;
+            position: absolute;
+            left: 41px;
+            top: -10px;
+            background-color: #fff;
+            padding: 0 10px;
+            span {
+                color: red;
+            }
+        }
+
+    }
+    .foter {
+        margin-top: 20px;
+        position: relative;
+        textarea {
+            border-radius: 5px;
+            width: 105%;
+            padding-bottom: 15%;
+        }
+        p {
+            color: #777777;
+            position: absolute;
+            left: 41px;
+            top: -10px;
+            background-color: #fff;
+            padding: 0 10px;
+            span {
+                color: red;
+            }
+        }
+    }
+    .yazi {
+        margin-left: 35px;
+        h4 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 15px;
+            color: #777777;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+#maparea {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .map {
+        iframe {
+            border-radius: 10px;
+            width: 100%;
+        }
+    }
+}

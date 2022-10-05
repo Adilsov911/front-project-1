@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#prod-head {
+  background-color: #F9F3F0;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+#prod-head .fotos {
+  margin-right: 15px;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+#prod-head .fotos .box {
+  margin-top: 20px;
+  width: 48%;
+}
+#prod-head .fotos .box img {
+  border-radius: 10px;
+  width: 100%;
+}
+#prod-head .textes {
+  margin-top: 12%;
+}
+#prod-head .textes .foter h1 {
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+#prod-head .textes .star-rating i {
+  margin-top: 4%;
+  color: gold;
+}
+#prod-head .orta li {
+  list-style: none;
+  font-size: 17px;
+  color: blue;
+}
+#prod-head .orta li i {
+  color: blue;
+  margin-right: 5px;
+}
+#prod-head .orta p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #8b8887;
+}
+#prod-head .alt {
+  margin-bottom: 20px;
+}
+#prod-head .alt i {
+  font-size: 15px;
+  margin-left: 10%;
+}
+#prod-head .alt2 {
+  display: flex;
+  align-items: center;
+}
+#prod-head .alt2 .btnn {
+  margin-top: 5px;
+  margin-left: 10%;
+}
+#prod-head .alt2 .btnn button {
+  padding: 13px;
+  border: none;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #8b8887;
+}
+#prod-head .pilus {
+  margin-top: 35px;
+  display: flex;
+}
+#prod-head .pilus span {
+  cursor: pointer;
+}
+#prod-head .pilus .number {
+  margin-top: 15px;
+}
+#prod-head .pilus .minus, #prod-head .pilus .plus {
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+#prod-head .pilus input {
+  height: 34px;
+  width: 50px;
+  text-align: center;
+  font-size: 26px;
+  background-color: #F9F3F0;
+  border: 1px solid #F9F3F0;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#prod-head .pilus .buttonl {
+  width: 60%;
+  height: 100%;
+}
+#prod-head .pilus .buttonl button {
+  outline: none;
+  width: 60%;
+  padding: 2% 0;
+}
+#prod-head .pilus .buttonl i {
+  cursor: pointer;
+  font-size: 13px;
+  margin-left: 10px;
+  padding: 13px 13px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  transition: 1s;
+}
+#prod-head .pilus .buttonl .icn:hover {
+  color: #fff;
+  padding: 15px 15px;
+  border: none;
+  background-color: rgb(133, 133, 255);
+}
+#prod-head .Bit {
+  margin-top: 5%;
+}
+#prod-head .Bit h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+#prod-head .Bit p {
+  margin-top: 12px;
+  font-size: 15px;
+  color: #8b8887;
+}
+#prod-head .Bit .blueh {
+  color: blue;
+  margin-bottom: 10%;
+}
+#prod-head .box1 {
+  display: flex;
+}
+#prod-head .box1 .first {
+  margin-top: 30px;
+  width: 30%;
+  margin-right: 10%;
+}
+#prod-head .box1 .first img {
+  border-radius: 80%;
+  background-color: #fff;
+  width: 100%;
+}/*# sourceMappingURL=product.css.map */

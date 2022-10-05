@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#first3 {
+  margin-top: 40px;
+}
+#first3 .head h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+#first3 .head p {
+  color: #777777;
+}
+#first3 .baton {
+  margin-right: 20px;
+}
+#first3 .btn {
+  padding: 16px 42px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(48, 113, 253);
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+#first3 .btn:hover {
+  padding: 18px 60px;
+}
+#first3 .second {
+  display: flex;
+  margin-top: 50px;
+}
+#first3 .second input {
+  position: relative;
+  padding: 15px 40px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border-color: blue;
+  border-width: 1px;
+}
+#first3 .second .name {
+  position: relative;
+}
+#first3 .second .number {
+  position: relative;
+}
+#first3 .second .mail {
+  position: relative;
+}
+#first3 .second p {
+  color: #777777;
+  position: absolute;
+  left: 41px;
+  top: -10px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+#first3 .second p span {
+  color: red;
+}
+#first3 .foter {
+  margin-top: 20px;
+  position: relative;
+}
+#first3 .foter textarea {
+  border-radius: 5px;
+  width: 105%;
+  padding-bottom: 15%;
+}
+#first3 .foter p {
+  color: #777777;
+  position: absolute;
+  left: 41px;
+  top: -10px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+#first3 .foter p span {
+  color: red;
+}
+#first3 .yazi {
+  margin-left: 35px;
+}
+#first3 .yazi h4 {
+  font-size: 28px;
+  font-weight: bold;
+}
+#first3 .yazi p {
+  font-size: 15px;
+  color: #777777;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#maparea {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#maparea .map iframe {
+  border-radius: 10px;
+  width: 100%;
+}/*# sourceMappingURL=contact.css.map */
